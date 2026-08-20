@@ -1,283 +1,235 @@
-# 🔍 Computer Vision & Image Processing Suite
+# 🤖 AI & Data Science Learning Journey
 
-> Advanced computer vision projects featuring deep learning models and image processing applications
+Welcome to my **AI & Data Science Class Repository** 🚀
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)](https://www.tensorflow.org)
-[![OpenCV](https://img.shields.io/badge/OpenCV-Latest-green?logo=opencv&logoColor=white)](https://opencv.org)
+This repository contains my **daily learning, session work, assignments, practice programs, notes, and projects** from my AI & Data Science training.
 
----
-
-## 📌 Overview
-
-This repository contains comprehensive computer vision projects guided by industry experts. It showcases practical applications of deep learning and image processing techniques for real-world problems.
-
-**Key Focus Areas:**
-- 🖼️ Image Classification & Object Detection
-- 🎯 Feature Extraction & Recognition
-- 📹 Video Processing & Analysis
-- 🤖 Deep Learning Models (CNN, Transfer Learning)
-- ✨ Image Enhancement & Transformation
+I am using this repository to track my progress, strengthen my technical skills, and maintain a consistent learning record on GitHub.
 
 ---
 
-## 🎯 Projects Included
+## 🎯 Learning Objective
 
-### 1. **Image Classification**
-Classify images into multiple categories using deep learning models.
-- CNN architecture implementation
-- Data augmentation techniques
-- Model evaluation and optimization
-- Transfer learning with pre-trained models
+My goal is to build a strong foundation in **Python, Data Science, Machine Learning, Generative AI, NLP, and Agentic AI** and apply these concepts through practical projects and assignments.
 
-### 2. **Object Detection**
-Detect and localize objects within images.
-- YOLO/SSD implementations
-- Real-time detection capabilities
-- Bounding box visualization
-- Multi-class detection support
-
-### 3. **Feature Recognition**
-Identify and extract meaningful features from images.
-- Keypoint detection
-- Descriptor matching
-- Pattern recognition
-- Similarity-based image search
-
-### 4. **Image Processing**
-Basic to advanced image manipulation techniques.
-- Filtering and morphological operations
-- Edge detection and contour analysis
-- Color space transformations
-- Image enhancement methods
+> **Learn → Practice → Build → Commit → Improve**
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Skills Covered
 
-| Component | Technology |
-|-----------|-----------|
-| **Language** | Python 3.8+ |
-| **Deep Learning** | TensorFlow / PyTorch |
-| **Computer Vision** | OpenCV |
-| **Data Processing** | NumPy, Pandas |
-| **Visualization** | Matplotlib, Plotly |
-| **Notebooks** | Jupyter Notebook |
+### 🐍 Python
 
----
+* Python Basics
+* Variables & Data Types
+* Conditional Statements
+* Loops
+* Functions
+* Lists, Tuples, Sets & Dictionaries
+* List Comprehension
+* Lambda, Map, Filter & Reduce
+* Object-Oriented Programming
+* Exception Handling
+* File Handling
+* Modules & Packages
 
-## 📋 Project Structure
+### 📊 Data Science
 
-```
-Computer_Vision_Suite/
-├── notebooks/
-│   ├── image_classification.ipynb
-│   ├── object_detection.ipynb
-│   ├── feature_extraction.ipynb
-│   └── image_processing.ipynb
-├── src/
-│   ├── models/
-│   ├── utils/
-│   └── preprocessing/
-├── data/
-│   ├── images/
-│   ├── datasets/
-│   └── results/
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
+* NumPy
+* Pandas
+* Data Cleaning
+* Data Preprocessing
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Matplotlib
+* Seaborn
+* Statistical Concepts
+* Feature Engineering
 
----
+### 🤖 Machine Learning
 
-## 🚀 Getting Started
+* Supervised Learning
+* Unsupervised Learning
+* Regression
+* Classification
+* Clustering
+* Decision Tree
+* Random Forest
+* KNN
+* SVM
+* Linear & Logistic Regression
+* Model Evaluation
+* Hyperparameter Tuning
+* Train/Test Split
+* Cross Validation
 
-### Prerequisites
-- Python 3.8 or higher
-- pip or conda package manager
-- GPU support recommended for faster training (optional)
+### ✨ Generative AI
 
-### Installation
+* Generative AI Fundamentals
+* Large Language Models (LLMs)
+* Prompt Engineering
+* AI Applications
+* LLM-based Applications
+* Retrieval-Augmented Generation (RAG)
+* Embeddings
+* Vector Databases
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/prasad2154/Computer-Vision-Suite.git
-   cd Computer-Vision-Suite
-   ```
+### 🗣️ NLP
 
-2. **Create a virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+* Natural Language Processing Fundamentals
+* Text Preprocessing
+* Tokenization
+* Stop Words
+* Stemming & Lemmatization
+* Text Vectorization
+* TF-IDF
+* Word Embeddings
+* Sentiment Analysis
+* NLP Applications
 
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 🧩 Agentic AI
 
-4. **Run a project**
-   ```bash
-   jupyter notebook notebooks/image_classification.ipynb
-   ```
-
----
-
-## 📊 Key Features
-
-✅ **Comprehensive Examples** — Multiple real-world use cases with complete implementations
-
-✅ **Well-Documented Code** — Clear explanations and comments for learning
-
-✅ **Pre-trained Models** — Ready-to-use models for quick experimentation
-
-✅ **Visualization Tools** — Interactive plots and image visualizations
-
-✅ **Best Practices** — Following industry standards and optimization techniques
-
-✅ **Modular Design** — Reusable components for custom projects
+* AI Agents
+* Agent Workflows
+* Tool Calling
+* Agent Memory
+* Multi-Agent Systems
+* LLM-powered Agents
+* Autonomous AI Workflows
 
 ---
 
-## 📈 Model Performance
+## 📚 Repository Structure
 
-### Image Classification
-- **Accuracy:** 95%+ on benchmark datasets
-- **Architecture:** ResNet, VGG, MobileNet
-- **Framework:** TensorFlow/Keras
-
-### Object Detection
-- **mAP Score:** 92%+
-- **Models:** YOLO v5, SSD MobileNet
-- **Speed:** Real-time inference on CPU
-
-### Feature Recognition
-- **Precision:** 98%+
-- **Techniques:** ORB, SIFT, Deep Features
-- **Applications:** Image matching, similarity search
-
----
-
-## 📚 Learning Resources
-
-### Included Topics
-
-1. **Fundamentals of Computer Vision**
-   - Image representation and properties
-   - Basic operations and filters
-   - Color spaces and transformations
-
-2. **Deep Learning for Vision**
-   - Convolutional Neural Networks (CNNs)
-   - Transfer learning techniques
-   - Advanced architectures (ResNet, EfficientNet, Vision Transformers)
-
-3. **Practical Applications**
-   - Face recognition systems
-   - Medical image analysis
-   - Autonomous vehicle perception
-   - Quality inspection systems
-   - Satellite image analysis
-
----
-
-## 🎓 AI Course Reference
-
-This project is part of comprehensive AI training (G_38) covering:
-- Supervised and unsupervised learning
-- Neural networks and deep learning
-- Computer vision and NLP
-- Production ML systems
-
-**Instructor:** Guided by industry experts
-
----
-
-## 💻 Usage Examples
-
-### Image Classification
-```python
-from src.models import ImageClassifier
-
-# Load model
-classifier = ImageClassifier(model_name='resnet50')
-classifier.load_pretrained_weights()
-
-# Make predictions
-predictions = classifier.predict('image.jpg')
-print(predictions)
-```
-
-### Object Detection
-```python
-from src.models import ObjectDetector
-
-# Initialize detector
-detector = ObjectDetector(model_name='yolov5')
-
-# Detect objects
-results = detector.detect('image.jpg')
-detector.visualize_results(results)
-```
-
-### Image Processing
-```python
-import cv2
-import numpy as np
-
-# Load image
-img = cv2.imread('image.jpg')
-
-# Apply filters
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-edges = cv2.Canny(gray, 100, 200)
-
-# Display result
-cv2.imshow('Edges', edges)
-cv2.waitKey(0)
+```text
+AI-DS-Class/
+│
+├── Python/
+│   ├── Session-01/
+│   ├── Session-02/
+│   ├── Session-03/
+│   └── Assignments/
+│
+├── Data-Science/
+│   ├── NumPy/
+│   ├── Pandas/
+│   ├── EDA/
+│   └── Visualization/
+│
+├── Machine-Learning/
+│   ├── Regression/
+│   ├── Classification/
+│   ├── Clustering/
+│   ├── Decision-Tree/
+│   └── Model-Evaluation/
+│
+├── Gen-AI/
+│   ├── Prompt-Engineering/
+│   ├── LLM/
+│   ├── RAG/
+│   └── Projects/
+│
+├── NLP/
+│   ├── Preprocessing/
+│   ├── Text-Vectorization/
+│   └── Projects/
+│
+├── Agentic-AI/
+│   ├── AI-Agents/
+│   ├── Tool-Calling/
+│   └── Projects/
+│
+├── Assignments/
+│
+└── README.md
 ```
 
 ---
 
-## 🤝 Contributing
+## 📅 Daily Learning & Progress
 
-Contributions are welcome! Please follow these guidelines:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+I regularly update this repository with my **session work and assignments**.
 
----
+| Area                | Progress                 |
+| ------------------- | ------------------------ |
+| 🐍 Python           | 🔄 Learning & Practicing |
+| 📊 Data Science     | 🔄 Learning & Practicing |
+| 🤖 Machine Learning | 🔄 Learning & Practicing |
+| ✨ Generative AI     | 🔄 Learning & Practicing |
+| 🗣️ NLP             | 🔄 Learning & Practicing |
+| 🧩 Agentic AI       | 🔄 Learning & Practicing |
 
-## 📄 License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) file for details.
-
----
-
-## 📞 Support & Questions
-
-For questions, suggestions, or issues:
-- 📧 Email: [your-email@example.com]
-- 💬 GitHub Issues: [Create an issue](https://github.com/prasad2154/Computer-Vision-Suite/issues)
-- 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/prasad-sharma)
+This repository will continue to evolve as I learn new concepts and build more projects.
 
 ---
 
-## 🙏 Acknowledgements
+## 🛠️ Tools & Technologies
 
-- **TensorFlow & PyTorch** communities for excellent frameworks
-- **OpenCV** for powerful computer vision tools
-- **Training Mentor** for guidance and support
-- Open-source contributors worldwide
+* Python
+* Jupyter Notebook
+* Google Colab
+* VS Code
+* Git & GitHub
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Streamlit
+* NLP Libraries
+* LLM APIs
+* Generative AI Tools
 
 ---
 
-<p align="center">
-  <strong>🔍 Exploring the Power of Computer Vision</strong><br>
-  Built with ❤️ using Python, TensorFlow & OpenCV<br>
-  © 2026 • All Rights Reserved
-</p>
+## 📈 My Learning Approach
 
-**Last Updated:** 2026 | Check back for regular updates!
+I follow a practical learning approach:
+
+1. Learn the concept
+2. Understand the theory
+3. Practice with Python
+4. Solve assignments
+5. Implement ML/AI algorithms
+6. Build projects
+7. Push the work to GitHub
+8. Review and improve
+
+---
+
+## 🚀 Projects
+
+As part of my learning journey, I will continuously add practical projects related to:
+
+* Data Science
+* Machine Learning
+* NLP
+* Generative AI
+* Agentic AI
+* AI-powered applications
+
+Each project will include its own documentation, implementation, and requirements wherever applicable.
+
+---
+
+## 🔄 Continuous Learning
+
+This is a **work-in-progress repository**.
+
+New session work, assignments, experiments, and projects will be added regularly as I progress through my AI & Data Science learning journey.
+
+> **Consistency + Practice + Projects = Growth 🚀**
+
+---
+
+## 👨‍💻 About Me
+
+I am currently developing my skills in **Python, Data Science, Machine Learning, Generative AI, NLP, and Agentic AI** with a strong focus on practical implementation and project-based learning.
+
+I believe that consistently building and documenting projects is one of the best ways to improve technical skills.
+
+---
+
+⭐ **If you find this repository useful, feel free to explore the projects and learning materials.**
+
+**Learning today. Building tomorrow. Becoming an AI/ML professional. 🚀**
